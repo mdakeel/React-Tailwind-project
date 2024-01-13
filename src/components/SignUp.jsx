@@ -105,7 +105,7 @@ export const SignUp = () => {
                       </div>
                     </div>
                     <div className="md:mt-8">
-                      <button onClick={RedirectToLogin} className="btnPrimary gradientBg2 rounded shadow-xl hover:shadow-none rounded-l-3xl w-full">Create Accounte</button>
+                      <button onClick={RedirectToLogin} className="btnPrimary gradientBg2 rounded shadow-xl hover:shadow-none rounded-l-3xl w-full">Create Account</button>
                     </div>
                     <div className="mb-5">
                       <p className="text-primary font-semibold text-sm">Allready have an account? <span className="text-[#0500FF] cursor-pointer">Log In</span></p>
