@@ -13,6 +13,10 @@ import { Link } from 'react-scroll';
 
 
 const Navbar = () => {
+    const navigate = useNavigate()
+    const RedirectToLogin = () => {
+      navigate("/login")
+    }
     // menu icon start
     const[isMenuOpen, setIsMenuOpen] = useState(false);
     
@@ -52,7 +56,7 @@ const Navbar = () => {
                 {/* language & SignUp */}
                 <div className='space-x-12 hidden md:flex items-center'>
                         <a href="/" className='hidden lg:flex items-center hover:text-secondary'><GrLanguage className='mr-2'/>Language</a>
-                    <button className='bg-secondary py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-600'>
+                    <button onClick={RedirectToLogin} className='bg-secondary py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-600'>
                         Sign Up
                     </button>
                 </div>

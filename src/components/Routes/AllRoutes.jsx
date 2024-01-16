@@ -28,6 +28,7 @@ export const AllRoutes = () => {
         }
       />
       <Route path="/" element={<SignUp />} />
+      <Route path="/login" element={ <SignUp /> } />
     </Routes>
   );
 };
